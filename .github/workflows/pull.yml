@@ -12,4 +12,4 @@ jobs:
           node-version: '16'
           architecture: 'x64'
       - run: npm install
-      - run: node example_without_proxy.js
+      - run: node .\example\example_without_proxy.js
