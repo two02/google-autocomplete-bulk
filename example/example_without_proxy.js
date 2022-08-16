@@ -1,4 +1,4 @@
-const Gauto = require('google-autocomplete-bulk');
+const Gauto = require('../Gauto');
 
 async function main() {
   const results = await Gauto('Paris',10);
