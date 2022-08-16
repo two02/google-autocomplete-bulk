@@ -1,0 +1,16 @@
+on:
+  push
+
+jobs:
+  start:
+    runs-on: windows-latest
+    name: push-example_without_proxy.js
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          architecture: 'x64'
+      - run: cd .\example\
+      - run: npm install
+      - run: node example_without_proxy.js
