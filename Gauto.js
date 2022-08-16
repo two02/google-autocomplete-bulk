@@ -66,7 +66,7 @@ module.exports= {Gauto} = async (quary, qnty, pa, pp, pu, pas) => {
 
     
 
-    return {"data":`${resData}`,"status":200};
+    return {"data":`[${resData}]`,"status":200};
 
     
 }
