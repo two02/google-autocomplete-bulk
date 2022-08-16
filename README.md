@@ -29,6 +29,17 @@ async function main() {
   console.log(results);
 }
 ```
+## Convert data to array
+```js
+let data = '[test1, test2, test3]';
+let array = data
+  .trim() 
+  .substr(1,data.length-2) 
+  .split(',') 
+  .map(e=>e.trim()) 
+  
+console.log(array);
+```
 
 ## Example
 You can study our [examples](https://github.com/two02/google-autocomplete-bulk/tree/main/example) from our repository
