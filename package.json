@@ -1,13 +1,13 @@
 {
   "name": "google-autocomplete-bulk",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "description": "Get Google Auto complete longer list",
   "main": "Gauto.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TwoZeroTwo LLC",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios-https-proxy-fix": "^0.17.1"
   },
@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/two02/google-autocomplete-bulk/issues"
   },
-  "homepage": "https://github.com/two02/google-autocomplete-bulk#readme"
+  "homepage": "https://github.com/two02/google-autocomplete-bulk#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "google",
+    "auto",
+    "complete",
+    "bulk"
+  ]
 }
