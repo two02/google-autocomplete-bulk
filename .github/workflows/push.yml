@@ -12,5 +12,5 @@ jobs:
           node-version: '16'
           architecture: 'x64'
       - run: cd .\example\
-      - run: npm install
+      - run: npm ci
       - run: node example_without_proxy.js
